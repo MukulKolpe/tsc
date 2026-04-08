@@ -1,0 +1,20 @@
+teams:
+  - name: lf-staff
+    maintainers:
+      - ryjones
+    members:
+      - jwagantall
+      - thelinuxfoundation
+  - name: otas-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - pv-suren
+      - pv-somyaditya
+      - pv-sarvesh
+repositories:
+  - name: tsc
+    teams:
+      lf-staff: maintain
+      otas-maintainers: maintain
+    visibility: public
